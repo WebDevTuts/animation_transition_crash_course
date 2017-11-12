@@ -9,4 +9,14 @@ body {
   position: relative;
   margin: auto;
   top: 200px;
+  transition-property: background, border-radius, transform;
+  transition-duration: 1s, 3s;
+  /* transition-delay: 2s, 4s, 5s; */
+  transition-timing-function: ease-in;
+}
+
+.box:hover {
+  background: red;
+  border-radius: 50%;
+  transform: rotateY(180deg);
 }
