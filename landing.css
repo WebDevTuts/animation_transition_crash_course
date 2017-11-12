@@ -59,6 +59,14 @@ body {
   animation-duration: 3s;
   animation-delay: 3s;
   animation-fill-mode: forwards;
+
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #12475f;
 }
 
 @keyframes btn {
