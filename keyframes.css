@@ -1,0 +1,10 @@
+body {
+  background: #333;
+}
+
+.box {
+  background: #fff;
+  width: 20px;
+  height: 200px;
+  position: relative;
+}
