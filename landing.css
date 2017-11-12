@@ -46,3 +46,22 @@ body {
   0% { left: -1000px; }
   100% { left: 0; }
 }
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: 1px solid #fff;
+  margin-top: 40px;
+  opacity: 0;
+  animation-name: btn;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes btn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
